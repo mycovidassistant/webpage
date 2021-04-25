@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/bg-home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar-brand img {
+  width: 8%;
+  margin-left: 2%;
+}
+.nav-item a {
+  font-family: "Open Sans", sans-serif;
+  margin-right: 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav-item a:hover {
+  color: #13bfb1;
+  border-bottom: 2px solid #13bfb1;
+  border-width: 80%;
+}
+.home {
+  margin-top: 4%;
+}
+.content-box h1 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+.content-box p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.btn {
+  color: white;
+  background: #13bfb1;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  color: white;
+  background: rgba(19, 191, 177, 0.7);
+  border: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: rgba(19, 191, 177, 0.4);
+}
+
+.info-box {
+  display: flex;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  padding: 2% 0% 1% 2%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-bottom: 4%;
+}
+
+.bed-box {
+  margin: 10px auto;
+}
+.bed-box p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hospital-info {
+}
+
+.address {
+  margin-top: 3%;
+  max-width: 95%;
+}
+.number {
+  font-weight: 600;
+}
