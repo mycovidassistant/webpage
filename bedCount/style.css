@@ -17,7 +17,7 @@ body {
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;  
+  font-weight: 800;
 }
 
 p {
@@ -25,32 +25,49 @@ p {
   font-weight: 400;
   font-size: 1.2rem;
 }
-
-.navbar-brand img {
+.row {
+  width: 100%;
+}
+.nav-custom {
+  margin-top: 1%;
+}
+.covid-img img {
   width: 8%;
   margin-left: 2%;
 }
-.nav-item a {
+.faqs {
+  text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  margin-right: 20px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  float: right;
+  margin-right: 2%;
 }
 
-.nav-item a:hover {
+.faqs:hover {
   color: #13bfb1;
-  border-bottom: 2px solid #13bfb1;
   border-width: 80%;
+}
+.punjab-govt {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.punjab-govt:hover {
+  color: #13bfb1;
 }
 .home {
   margin-top: 4%;
+}
+.content-box {
+  text-align: center;
 }
 .content-box h1 {
   font-family: "Open Sans", sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 4.5rem;
 }
 
 .content-box p {
@@ -58,8 +75,6 @@ p {
   color: white;
   font-weight: 400;
 }
-
-
 
 .info-box {
   display: flex;
@@ -70,13 +85,12 @@ p {
   border-radius: 5px;
   margin-bottom: 4%;
   margin-top: 2%;
-  
 }
 
 .bed-box {
-  margin-left:auto;
+  margin-left: auto;
   margin-top: 2%;
-  margin-bottom:2%;
+  margin-bottom: 2%;
 }
 .bed-box p {
   font-size: 1.5rem;
@@ -89,4 +103,14 @@ p {
 }
 .number {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-custom {
+    margin-top: 3%;
+  }
+  .covid-img img {
+    width: 3rem;
+    margin-left: 2%;
+  }
 }

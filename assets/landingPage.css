@@ -4,9 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-
 
 h1 {
   font-family: "Open Sans", sans-serif;
@@ -18,20 +16,29 @@ p {
   font-size: 1.2rem;
 }
 
-.nav-item a {
-  font-family: "Open Sans", sans-serif;
-  margin-right: 20px;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 500;
+.row {
+  width: 100%;
 }
-
-.nav-item a:hover {
-  color: #13bfb1;
+.nav-custom {
+  margin-top: 1%;
 }
-.navbar-brand img {
+.covid-img img {
   width: 8%;
   margin-left: 2%;
+}
+.faqs {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  float: right;
+  margin-right: 2%;
+}
+
+.faqs:hover {
+  color: #13bfb1;
+  border-width: 80%;
 }
 .main {
   margin-top: 1%;
@@ -65,5 +72,11 @@ a {
   .card {
     width: 90vw;
   }
+  .nav-custom {
+    margin-top: 3%;
+  }
+  .covid-img img {
+    width: 3rem;
+    margin-left: 2%;
+  }
 }
-
